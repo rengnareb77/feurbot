@@ -35,4 +35,5 @@ jobs:
         context: .
         push: true
         tags: portainer-registry.lucas-beranger.fr/feurbot:latest
+        provenance: false
         platforms: linux/amd64
