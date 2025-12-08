@@ -60,6 +60,8 @@ const handleReplies = (message: Message<boolean>) => {
         ]);
     } else if (random < 60) {
         message.reply('https://fr.m.wikipedia.org/wiki/Feur');
+    } else if (random < 65) {
+        message.reply('https://tenor.com/view/feur-quoi-lsf-usm67-gif-25168502');
     } else if (random < 70) {
         message.reply('https://www.youtube.com/watch?v=-aDmpj5hbYw');
     } else {
